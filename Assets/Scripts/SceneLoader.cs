@@ -10,7 +10,11 @@ public class SceneLoader : MonoBehaviour
 		SceneManager.LoadScene(SceneName, mode: LoadSceneMode.Single); //Loads game when menu button is pressed  
 	}
 
-	public void GameOver(){
+	public static void GameOver(){
 		SceneManager.LoadScene("GameOver", mode: LoadSceneMode.Single);
+	}
+
+	public void Quit(){
+		Application.Quit();
 	}
 }
