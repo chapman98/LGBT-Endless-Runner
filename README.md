@@ -8,6 +8,9 @@ An endless runner style game created for the Gay[M] Jam 2.0 using Unity, within 
 Game link: https://callum-chapman.itch.io/endless-allies
 
 Game programmer: Elliot Walker
+
 UI Designer and level creator: callum chapman
+
 Game designer: Hannah Fisher
+
 Sound artist: Alex Bell
