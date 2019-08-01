@@ -7,8 +7,8 @@ public class SceneLoader : MonoBehaviour
 {
 	public void OnMouseClick(string SceneName) //UI Buttons
 	{
-		SceneManager.LoadScene(SceneName, mode: LoadSceneMode.Single); //Loads game when menu button is pressed  
-	}
+		SceneManager.LoadScene(SceneName, mode: LoadSceneMode.Single); //Loads game when menu button is pressed
+    }
 
 	public static void GameOver(){
 		SceneManager.LoadScene("GameOver", mode: LoadSceneMode.Single);

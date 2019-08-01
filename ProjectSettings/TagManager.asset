@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Obstacle
   - Ally
+  - Goal
+  - PlayerImage
   layers:
   - Default
   - TransparentFX
@@ -42,4 +44,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: terrain
+    uniqueID: 1600124911
     locked: 0
